@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbackground"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textloginpass"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="cursive"
+        android:text="Password"
+        android:textColor="#21E7EE"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/loginpass"
+        app:layout_constraintEnd_toEndOf="@+id/loginpass"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/loginpass"
+        app:layout_constraintTop_toBottomOf="@+id/loginid" />
+
+    <EditText
+        android:id="@+id/loginpass"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#FFF"
+        android:ems="10"
+        android:fontFamily="cursive"
+        android:inputType="textPassword"
+        android:textColor="#21E7EE"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/loginbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textloginpass" />
+
+    <TextView
+        android:id="@+id/textloginid"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="cursive"
+        android:text="Login id"
+        android:textAlignment="textStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#21E7EE"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        app:layout_constraintBottom_toTopOf="@+id/loginid"
+        app:layout_constraintEnd_toEndOf="@+id/loginid"
+        app:layout_constraintStart_toStartOf="@+id/loginid"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/loginid"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:fontFamily="cursive"
+        android:inputType="textPersonName"
+        android:textColor="#21E7EE"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/textloginpass"
+        app:layout_constraintEnd_toEndOf="@+id/textloginpass"
+        app:layout_constraintStart_toStartOf="@+id/textloginpass"
+        app:layout_constraintTop_toBottomOf="@+id/textloginid" />
+
+    <ImageButton
+        android:id="@+id/loginbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="143dp"
+        android:layout_marginBottom="58dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/loginpass"
+        app:layout_constraintTop_toBottomOf="@+id/loginpass"
+        app:srcCompat="@drawable/login" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/textloginid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/alliancelogo" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

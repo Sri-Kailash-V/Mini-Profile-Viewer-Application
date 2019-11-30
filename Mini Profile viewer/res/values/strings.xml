@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Alliance Faculty Portal</string>
+    <string name="vijayalakshmides">Assistant Professor, Alliance College of Engineering and Design</string>
+    <string name="vijayalakshmimail">vijaya.lakshmi@alliance.edu.in</string>
+    <string name="vijayalakshmidescri">Prof R.Vijaya Lakshmi has 11 years of teaching experience . She completed her B.E in S.J.C.I.T Chickballapur from V.T.U and M.E(Master of Engineering) in Computer Science and Engineering from  Anna University -Chennai.  Her  area of Specialization includes Theory of Computation ,Compiler Design, Operating System, Data Structures. Attended various AICTE Sponsored FDP’s  and Workshops .Published many papers in conferences and journals.</string>
+    <string name="shekhardes">Associate Professor, Alliance College of Engineering and Design</string>
+    <string name="shekharmail">shekhar.r@alliance.edu.in</string>
+    <string name="shekhardescri">Dr. Shekhar. R is a doctorate in Computer Science from MS University, Tirunelveli, a Postgraduate in Computer Networks and graduate in Computer Science and Engineering from the University of Bangalore. He has professional certifications in Microsoft and Cisco Networking.</string>
+    <string name="srinathades">Assistant Professor, Alliance College of Engineering and Design</string>
+    <string name="srinathamail">srinatha.dk@alliance.edu.in</string>
+    <string name="srinathadescri">Prof Srinatha D K has eight years industry and academic experience. He received his BE in information science and engineering from the PESIT college, Bangalore and his M. Tech degree in software engineering from Visvesvaraya Technological University, Belgaum, Karnataka. He currently teaches all computer science and engineering related subjects and also pursues research in the areas of code optimization, data science, semantic web and applied mathematics.</string>
+    <string name="radhades">Assistant Professor, Alliance College of Engineering and Design</string>
+    <string name="radhamail">radha.r@alliance.edu.in</string>
+    <string name="radhadescri">Prof. Radha R has one year of teaching experience. She completed her B.E. from S.I.T. Tumkur affiliated to VTU and M.Tech. (Master of Technology) in Computer Science and Engineering from NHCE Bangalore again affiliated to the VTU.  Her area of specialization includes Information network security, Computer Organization, Operating System, Data Structures, OOPs with C++ and JAVA. She has attended various VTU sponsored FDP’s and workshops  and published many papers in conferences and journals.</string>
+    <string name="bhoomikades">Assistant Professor, Alliance College of Engineering and Design</string>
+    <string name="bhoomikamail">bhoomika.ap@alliance.edu.in</string>
+    <string name="bhoomikadescri">Ms Bhoomika completed her M.Tech degree  in Computer Science from JNNCE, Shivamogga, Karanataka.  She teaches Database Management Systems, Design and Analysis of Algorithms in the Computer Science and Engineering Department. Her areas of interest in research are Semantic Web and Web Mining.</string>
+</resources>
